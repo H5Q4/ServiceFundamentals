@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      tools:context=".MainActivity"
+      >
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/startBackgroundServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start background service"
+        />
+
+    <Button
+        android:id="@+id/stopBackgroundServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop background service"
+        />
+
+    <Button
+        android:id="@+id/startIntentServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start intent service"
+        />
+
+    <Button
+        android:id="@+id/startForegroundServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start foreground service"
+        />
+
+    <Button
+        android:id="@+id/startJobIntentServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start JobIntentService"
+        />
+
+    <Button
+        android:id="@+id/bindServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bind MyBoundService"
+        />
+
+    <Button
+        android:id="@+id/unbindServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unbind MyBoundService"
+        />
+
+    <Button
+        android:id="@+id/startServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start MyBoundService"
+        />
+
+    <Button
+        android:id="@+id/stopServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop MyBoundService"
+        />
+
+
+  </LinearLayout>
+</ScrollView>
